@@ -15,6 +15,7 @@
 		312E74861ECDE9D0007A90D1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E74851ECDE9D0007A90D1 /* DataModel.swift */; };
 		312E74881ECDEA8A007A90D1 /* DateModelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E74871ECDEA8A007A90D1 /* DateModelPicker.swift */; };
 		312E748A1ECDEAA2007A90D1 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E74891ECDEAA2007A90D1 /* Data.swift */; };
+		31CE3D841ECEB9680085A44F /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE3D831ECEB9680085A44F /* NotificationNameExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		312E74851ECDE9D0007A90D1 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		312E74871ECDEA8A007A90D1 /* DateModelPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateModelPicker.swift; sourceTree = "<group>"; };
 		312E74891ECDEAA2007A90D1 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		31CE3D831ECEB9680085A44F /* NotificationNameExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				312E74731ECDE7DB007A90D1 /* Main.storyboard */,
 				312E74871ECDEA8A007A90D1 /* DateModelPicker.swift */,
+				31CE3D831ECEB9680085A44F /* NotificationNameExtension.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				312E74721ECDE7DB007A90D1 /* ViewController.swift in Sources */,
 				312E748A1ECDEAA2007A90D1 /* Data.swift in Sources */,
 				312E74881ECDEA8A007A90D1 /* DateModelPicker.swift in Sources */,
+				31CE3D841ECEB9680085A44F /* NotificationNameExtension.swift in Sources */,
 				312E74701ECDE7DB007A90D1 /* AppDelegate.swift in Sources */,
 				312E74861ECDE9D0007A90D1 /* DataModel.swift in Sources */,
 			);
@@ -335,6 +339,7 @@
 				312E74801ECDE7DB007A90D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

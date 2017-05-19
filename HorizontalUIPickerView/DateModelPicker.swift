@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DateModelPicker: UIPickerView , UIPickerViewDataSource, UIPickerViewDelegate{
+class DateModelPicker: UIPickerView , UIPickerViewDataSource, UIPickerViewDelegate {
     
     var modelData: [DataModel]!
     let customWidth: CGFloat = 100
@@ -54,6 +54,13 @@ class DateModelPicker: UIPickerView , UIPickerViewDataSource, UIPickerViewDelega
         view.transform = CGAffineTransform(rotationAngle: (90 * (.pi/180)))
         return view
     }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        NotificationCenter.default.post(name: .pickersChanged, object: self)
+        
+    }
+    
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

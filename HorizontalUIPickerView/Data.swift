@@ -18,7 +18,13 @@ class Data {
         data.append(DataModel(dayName: "Friday", price: "$96", date: "05 MAY"))
         data.append(DataModel(dayName: "Saturday", price: "$95", date: "06 MAY"))
         data.append(DataModel(dayName: "Sunday", price: "$94", date: "07 MAY"))
-        
+        data.append(DataModel(dayName: "Monday", price: "$93", date: "08 MAY"))
+        data.append(DataModel(dayName: "Tuesday", price: "$92", date: "09 MAY"))
+        data.append(DataModel(dayName: "Wednesday", price: "$91", date: "10 MAY"))
+        data.append(DataModel(dayName: "Thursday", price: "$90", date: "11 MAY"))
+        data.append(DataModel(dayName: "Friday", price: "$89", date: "12 MAY"))
+        data.append(DataModel(dayName: "Saturday", price: "$88", date: "13 MAY"))
+        data.append(DataModel(dayName: "Sunday", price: "$87", date: "14 MAY"))
         return data
     }
 }
